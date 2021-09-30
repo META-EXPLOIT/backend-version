@@ -26,8 +26,9 @@ Esse ultimo comando ira dar erro, e preciso add a seguinte configuracao ao arqui
 
 Feito isso, habilitando a conexao SSL e resolvendo o bug de "unathorized certified" cm o "rejectUnauthorized: false", a criacao da tabela ocorrera sem problemas cm o ultimo comando.
 
-yarn add bcrypt
-yarn add jsonwebtoken
+`yarn add bcrypt`
+
+`yarn add jsonwebtoken`
 
 
 **Heroku**

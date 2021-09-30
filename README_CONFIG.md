@@ -1,11 +1,11 @@
-yarn init -y
-yarn add express sequelize pg
-yarn add nodemon -D
-yarn add sequelize-cli -D
+`yarn init -y`
+`yarn add express sequelize pg`
+`yarn add nodemon -D`
+`yarn add sequelize-cli -D`
 
-yarn sequelize init
-yarn sequelize migration:create --name=create-user
-yarn sequelize db:migrate
+`yarn sequelize init`
+`yarn sequelize migration:create --name=create-user`
+`yarn sequelize db:migrate`
 
 Esse ultimo comando ira dar erro, e preciso add a seguinte configuracao ao arquivo de database.js:
 
@@ -24,7 +24,7 @@ yarn add bcrypt
 yarn add jsonwebtoken
 
 
-** Heroku **
+**Heroku**
 script start
 env port binding randonly (app.listen(process.env.PORT || 3000))
 procfile (web: node src/index.js)

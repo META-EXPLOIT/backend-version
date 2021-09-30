@@ -1,10 +1,16 @@
 `yarn init -y`
+
 `yarn add express sequelize pg`
+
 `yarn add nodemon -D`
+
 `yarn add sequelize-cli -D`
 
+
 `yarn sequelize init`
+
 `yarn sequelize migration:create --name=create-user`
+
 `yarn sequelize db:migrate`
 
 Esse ultimo comando ira dar erro, e preciso add a seguinte configuracao ao arquivo de database.js:
